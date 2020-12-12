@@ -5,7 +5,7 @@ merge into `product` values
 	'Cake', 
 	'Cake',
 	'Chocolate Cupcakes layered with chocolate frosting and topped with the sprinkles of your choice.',
-	'https://images-na.ssl-images-amazon.com/images/I/81R9b8tbayL._AC_SL1500_.jpg',
+	'https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-proj[…]CIP-167/chocolate-chocolate-cupcakes-recipe.jpg?sw=800&sh=800',
 	'Chocolate Cupcakes',
 	30,
 	3);
@@ -14,7 +14,7 @@ merge into `product` values
 	'Macarons', 
 	'Macaron',
 	'Vanilla macarons with chocolate hazelnut filling.',
-	'https://cakemerchant.com/wp-content/uploads/French-Macarons-16.jpg',
+	' https://dfuukapb8h94d.cloudfront.net/wp-content/uploads/2016/11/09183430/Vanilla-Macarons.jpg',
 	'6 Macarons ',
 	8,
 	6000);
