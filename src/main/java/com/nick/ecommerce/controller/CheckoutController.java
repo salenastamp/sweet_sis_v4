@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.nick.ecommerce.model.ChargeRequest;
 import com.nick.ecommerce.service.StripeService;
+import com.nick.ecommerce.service.UserService;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Charge;
 
@@ -36,6 +37,9 @@ public class CheckoutController {
 
         @Autowired
         private StripeService paymentsService;
+        
+        @Autowired
+        UserService userService;
 
         @PostMapping("/charge")
         public String charge(ChargeRequest chargeRequest, Model model)
@@ -47,6 +51,7 @@ public class CheckoutController {
             model.addAttribute("status", charge.getStatus());
             model.addAttribute("chargeId", charge.getId());
             model.addAttribute("balance_transaction", charge.getBalanceTransaction());
+            userService.getLoggedInUser().getCart().clear();
             return "result";
         }
 

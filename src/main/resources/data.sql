@@ -5,7 +5,7 @@ merge into `product` values
 	'Cake', 
 	'Cake',
 	'Chocolate Cupcakes layered with chocolate frosting and topped with the sprinkles of your choice.',
-	'https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-proj[…]CIP-167/chocolate-chocolate-cupcakes-recipe.jpg?sw=800&sh=800',
+	'https://chocolatechocolateandmore.com/wp-content/uploads/2015/12/Double-Chocolate-Cupcakes.jpg',
 	'Chocolate Cupcakes',
 	30,
 	3);
