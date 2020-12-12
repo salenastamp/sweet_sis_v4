@@ -5,40 +5,40 @@ body{
 	text-align: center;
 	margin: 50px, 100px;
 	}
-â€‹
+€‹
 .emptycart,
 h3, 
 p {
 	color: #A285AA;
 	text-align: center;
 }
-â€‹
+€‹
 h1 {
 	color:  #772262;
 	font-family: 'Cagliostro', sans-serif;
 	font-size: 40px;
 	margin-top: 20px !important;
 }
-â€‹
+€‹
 h2 {
 	color:  #E35653;
 	padding-top: 10px;
 	font-family: 'Cagliostro', sans-serif;
 }
-â€‹
+€‹
 h3{
 	font-size: 25px;
 }
-â€‹
+€‹
 h4{
 	color: #FFF0E6;
 	font-family: 'Cagliostro', sans-serif;
 }
-â€‹
+€‹
 p {
 	font-size: 15px;
 }
-â€‹
+€‹
 form {
 	display: inline-block;
 }
@@ -50,52 +50,52 @@ input {
 	padding: 10px;
 	margin-bottom: 15px;
 }
-â€‹
+€‹
 .container {
 	margin-top: 30px;
 }
-â€‹
+€‹
 img {
 	border-radius: 10px;
 	margin-top: 10px;
 }
-â€‹
+€‹
 .navbar-toggler {
 	width: 60px;
 	background-color: #A285AA !important;
 }
-â€‹
+€‹
 .navbar {
 	background: #772262 !important;
 	font-family: 'Abel', sans-serif;
 }
-â€‹
+€‹
 .navbar-brand {
 	color:  #ffffff !important;
 	font-family: 'Cagliostro', sans-serif;
 	font-size: 30px;
 }
-â€‹
+€‹
 .nav-link {
  color: #FFA360 !important;
  }
-â€‹
+€‹
 .jumbotron {
 	background-image: url("https://www.bakersroyale.com/wp-content/uploads/2017/02/Black-Cherry-Macarons-Bakers-Royale-720x720.jpg");
 	background-size: cover;
 }
-â€‹
+€‹
 .display-3 {
 	color: #FFF0E6;
 }
-â€‹
+€‹
 .btn-primary {
 	background-color: #FFA360 !important;
 	border: #FFA360;
 	font-family: 'Roboto', sans-serif;
 	color: #FFF0E6 !important;
 }
-â€‹
+€‹
 .btn-success {
 	background-color: #772262 !important;
 	border: #772262;
@@ -109,7 +109,7 @@ img {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF0E6 !important;
 }
-â€‹
+€‹
 .card{
 	background-color: #A285AA;
 }	
@@ -117,22 +117,22 @@ img {
 	padding-right: 10px;
 	padding-left: 10px;
 }
-â€‹
+€‹
 .card-img{
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
-â€‹
+€‹
 .card-title{
 	font-family: 'Cagliostro', sans-serif;
 	color: #FFF0E6;
 }
-â€‹
+€‹
 .card-text{
 	font-family: 'Roboto', sans-serif;
 	color: #772262;
 }
-â€‹
+€‹
 th,
 td,
 #checkoutform,
@@ -140,14 +140,14 @@ td,
 	font-family: 'Roboto', sans-serif;
 	color: #772262;
 }
-â€‹
+€‹
 .login2,
 .login {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
-â€‹
+€‹
 .login{
 	margin-bottom: 20px;
 }

@@ -13,7 +13,7 @@ merge into `product` values
 	(2, 
 	'Macarons', 
 	'Macaron',
-	'Vanilla macarons wiht chocolate hazelnut filling.',
+	'Vanilla macarons with chocolate hazelnut filling.',
 	'https://cakemerchant.com/wp-content/uploads/French-Macarons-16.jpg',
 	'6 Macarons ',
 	8,
@@ -26,7 +26,7 @@ merge into `product` values
 	'https://hungryhappenings.com/wp-content/uploads/2019/09/cakesicles-recipe-cake-pops-popsicles-2-500x500.jpg',
 	'6 Cake Pops',
 	12,
-	2)
+	2);
 merge into `product` values 
 	(4, 
 	'Cookies', 
@@ -35,14 +35,14 @@ merge into `product` values
 	'https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/18492-ginger-spice-cookies-with-royal-icing-600x600.jpg?ext=.jpg',
 	'12 Marble Iced Cookies',
 	18,
-	2)
+	2);
 merge into `product` values 
 	(5, 
 	'Cream Puffs', 
-	'Cream Puffs,
+	'Cream Puffs',
 	'Wonderful French cream puffs filled with vanilla custard and topped with vanilla icing',
 	'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbbxRCcA5k59zdKY2zfskF4FhVOnx76n5wA&usqp=CAU',
 	'12 Cream Puffs',
 	22,
-	2)		
+	2);		
 --USER_ID  	BRAND  	CATEGORY  	DESCRIPTION  	IMAGE_URL  	NAME  	PRICE  	QUANTITY  

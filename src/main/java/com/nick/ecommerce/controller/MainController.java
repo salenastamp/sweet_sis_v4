@@ -28,8 +28,8 @@ public class MainController {
     @Autowired
     UserService userService;
 
-    @GetMapping("/")
-    public String main(Model model) {
+    @GetMapping(value = { "/main", "/" })
+    public String main() {
         return "main";
     }
 

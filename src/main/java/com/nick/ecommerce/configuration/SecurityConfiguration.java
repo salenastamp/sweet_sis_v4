@@ -1,6 +1,5 @@
 package com.nick.ecommerce.configuration;
 
-
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +12,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-
-
 
 @Configuration
 @EnableWebSecurity
@@ -52,9 +49,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/console/**").permitAll()
                 .antMatchers("/").permitAll()
                 .antMatchers("/login").permitAll()
+                .antMatchers("/main").permitAll()
                 .antMatchers("/signup").permitAll()
+                .antMatchers("/about").permitAll()
                 .antMatchers("/custom.js").permitAll()
-                .antMatchers("/custom.css").permitAll()
+                .antMatchers("/sweetsis.css").permitAll()
                 .antMatchers("/cart").authenticated()
                 .antMatchers().hasAuthority("USER").anyRequest()
                 .authenticated().and().csrf().disable().formLogin()
