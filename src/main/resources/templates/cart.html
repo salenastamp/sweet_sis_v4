@@ -10,8 +10,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
   <body>
-  <div th:replace="fragments/navbar" ></div>
- 
+ <div th:replace="fragments/navbar"></div>
   <!--/*@thymesVar id="cart" type="java.util.Map<com.example.demo.model.Product, java.lang.Integer>"*/-->
   <main role="main">
       <div class="container">
@@ -60,12 +59,12 @@
               <form th:action="@{/cart/update}" method="post" id="updateForm" th:if="${cart.size() > 0}">
                   <!-- form doesn't support PATCH requests, but this tells Spring Boot to use @PatchMapping anyway. -->
                   <input type="hidden" name="_method" value="PATCH" />
-                  <button type="submit" class="btn btn-primary">Update Cart</button>
+                  <button type="submit" class="btn btn-primary btn-checkout">Update Cart</button>
               </form>
               <form th:action="@{/checkout}" method="get" id="updateForm" th:if="${cart.size() > 0}">
                   <!-- form doesn't support PATCH requests, but this tells Spring Boot to use @PatchMapping anyway. -->
                   <input type="hidden" name="_method" value="PATCH" />
-                  <button type="submit" class="btn btn-primary">Checkout</button>
+                  <button type="submit" class="btn btn-primary btn-checkout">Checkout</button>
               </form>
               <div class="emptycart" th:if="${cart.size() == 0}">Nothing in your cart yet.</div>
           </div>

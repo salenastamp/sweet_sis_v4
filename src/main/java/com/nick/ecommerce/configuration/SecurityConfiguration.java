@@ -46,6 +46,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.
                 authorizeRequests()
                 .antMatchers("/cart").authenticated()
+                .antMatchers("/sweetsis.css").permitAll()
                 .antMatchers("/console/**").permitAll()
                 .antMatchers("/").permitAll()
                 .antMatchers("/login").permitAll()
@@ -53,7 +54,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/signup").permitAll()
                 .antMatchers("/about").permitAll()
                 .antMatchers("/custom.js").permitAll()
-                .antMatchers("/sweetsis.css").permitAll()
                 .antMatchers("/cart").authenticated()
                 .antMatchers().hasAuthority("USER").anyRequest()
                 .authenticated().and().csrf().disable().formLogin()

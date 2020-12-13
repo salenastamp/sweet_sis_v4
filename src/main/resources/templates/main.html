@@ -26,6 +26,7 @@
 			<div class="row">
 				<!--Fill this part in-->
 				<div th:each="product:${products}">
+				<div class="col-md-4 center-block">
 					<div class="card" style="width: 18rem;">
 						<img th:src="${product.image}" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -35,8 +36,7 @@
 						</div>
 					</div>
 				</div> 
-
-
+				</div>
 			</div>
 		</div>
 	</main>

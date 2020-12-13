@@ -90,6 +90,9 @@ img {
 	font-family: 'Roboto', sans-serif;
 	color: #FFF0E6 !important;
 }
+.btn-checkout{
+	margin: 5px;
+}
 .card{
 	background-color: #A285AA;
 	margin: 10px;
@@ -105,6 +108,10 @@ img {
 .card-img{
 	padding-left: 10px;
 	padding-bottom: 10px;
+	width: 100%;
+    height: 485px;
+    object-fit: cover;
+    border-radius: 0px;
 }
 .card-title{
 	font-family: 'Cagliostro', sans-serif;
