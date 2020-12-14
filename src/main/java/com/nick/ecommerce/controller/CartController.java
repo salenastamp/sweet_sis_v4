@@ -101,7 +101,7 @@ public class CartController {
 	}
 	@RequestMapping(value="/cart/clear", method=RequestMethod.GET)
 	public String clearCart() {
-		for(int i=1; i<productCount(); i++) {
+		for(int i=1; i<=productCount(); i++) {
 			Product p = productService.findById(i);
 			setQuantity(p,0);
 		}
