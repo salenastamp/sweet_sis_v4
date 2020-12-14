@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.nick.ecommerce.model.Product;
 import com.nick.ecommerce.model.User;
+import com.nick.ecommerce.repository.ProductRepository;
 import com.nick.ecommerce.service.ProductService;
 import com.nick.ecommerce.service.UserService;
 
@@ -27,6 +28,9 @@ import com.nick.ecommerce.service.UserService;
 public class CartController {
 	@Autowired
 	ProductService productService;
+	
+	@Autowired
+	ProductRepository productRepository;
 
 	@Autowired
 	UserService userService;
@@ -92,9 +96,12 @@ public class CartController {
 		userService.updateCart(userMap);
 	}
 	
+	public long productCount() {
+		return productRepository.count();
+	}
 	@RequestMapping(value="/cart/clear", method=RequestMethod.GET)
 	public String clearCart() {
-		for(int i=1; i<6; i++) {
+		for(int i=1; i<productCount(); i++) {
 			Product p = productService.findById(i);
 			setQuantity(p,0);
 		}
