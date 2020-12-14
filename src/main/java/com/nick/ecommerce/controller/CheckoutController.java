@@ -51,7 +51,6 @@ public class CheckoutController {
             model.addAttribute("status", charge.getStatus());
             model.addAttribute("chargeId", charge.getId());
             model.addAttribute("balance_transaction", charge.getBalanceTransaction());
-            userService.getLoggedInUser().getCart().clear();
             return "result";
         }
 
@@ -60,5 +59,6 @@ public class CheckoutController {
             model.addAttribute("error", ex.getMessage());
             return "result";
         }
+ 
     }
 }

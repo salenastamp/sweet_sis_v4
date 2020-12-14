@@ -68,6 +68,10 @@ public class UserService implements UserDetailsService{
         user.setCart(cart);
         saveExisting(user);
     }
+    
+    public void emptyCart() {
+    	this.getLoggedInUser().getCart().clear();
+    }
 
 	
     @Override

@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.nick.ecommerce.model.Product;
@@ -88,6 +90,15 @@ public class CartController {
 			userMap.remove(p);
 
 		userService.updateCart(userMap);
+	}
+	
+	@RequestMapping(value="/cart/clear", method=RequestMethod.GET)
+	public String clearCart() {
+		for(int i=1; i<6; i++) {
+			Product p = productService.findById(i);
+			setQuantity(p,0);
+		}
+		return "redirect:/main";
 	}
 
 }
