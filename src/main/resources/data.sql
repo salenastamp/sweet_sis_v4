@@ -5,7 +5,7 @@ merge into `product` values
 	'Cake', 
 	'Cake',
 	'Chocolate Cupcakes layered with chocolate frosting and topped with the sprinkles of your choice.',
-	'https://chocolatechocolateandmore.com/wp-content/uploads/2015/12/Double-Chocolate-Cupcakes.jpg',
+	'https://images.unsplash.com/photo-1560269507-9495cdfcadca?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
 	'Chocolate Cupcakes',
 	30,
 	3);
@@ -14,7 +14,7 @@ merge into `product` values
 	'Macarons', 
 	'Macaron',
 	'Vanilla macarons with chocolate hazelnut filling.',
-	' https://dfuukapb8h94d.cloudfront.net/wp-content/uploads/2016/11/09183430/Vanilla-Macarons.jpg',
+	'https://images.unsplash.com/photo-1575041513129-ebdf8124115a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80',
 	'6 Macarons ',
 	8,
 	6000);
@@ -23,7 +23,7 @@ merge into `product` values
 	'Cake Pops', 
 	'Cake Pops',
 	'Vanilla or Chocolate CakePops coated in white or dark chocolate.',
-	'https://hungryhappenings.com/wp-content/uploads/2019/09/cakesicles-recipe-cake-pops-popsicles-2-500x500.jpg',
+	'https://images.unsplash.com/photo-1586195830864-e4d9688815c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80',
 	'6 Cake Pops',
 	12,
 	2);
@@ -31,9 +31,9 @@ merge into `product` values
 	(4, 
 	'Cookies', 
 	'Cookies',
-	'Our delicious sugar cookies coated in marble frosting.',
-	'https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/18492-ginger-spice-cookies-with-royal-icing-600x600.jpg?ext=.jpg',
-	'12 Marble Iced Cookies',
+	'Our delicious sugar cookies coated in black and white frosting.',
+	'https://images.unsplash.com/photo-1588195547116-6a514230c4ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+	'12 Black and White Cookies',
 	18,
 	2);
 merge into `product` values 
@@ -41,7 +41,7 @@ merge into `product` values
 	'Cream Puffs', 
 	'Cream Puffs',
 	'Wonderful French cream puffs filled with vanilla custard and topped with vanilla icing',
-	'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbbxRCcA5k59zdKY2zfskF4FhVOnx76n5wA&usqp=CAU',
+	'https://images.unsplash.com/photo-1496890607984-d27fca8a68ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80',
 	'12 Cream Puffs',
 	22,
 	2);		

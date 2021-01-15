@@ -64,4 +64,8 @@ public class MainController {
     public String about() {
         return "about";
     }
+    @GetMapping("/index.html")
+    public String index() {
+        return "index.html";
+    }
 }

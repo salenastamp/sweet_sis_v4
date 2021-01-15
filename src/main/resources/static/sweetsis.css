@@ -11,11 +11,14 @@ p {
 	color: #A285AA;
 	text-align: center;
 }
+.homep{
+	color:  #FFF0E6;
+}
 h1 {
 	color:  #772262;
 	font-family: 'Cagliostro', sans-serif;
 	font-size: 40px;
-	margin-top: 20px !important;
+	margin-top: 20px;
 }
 h2 {
 	color:  #E35653;
@@ -66,8 +69,10 @@ img {
  color: #FFA360 !important;
  }
 .jumbotron {
-	background-image: url("https://www.bakersroyale.com/wp-content/uploads/2017/02/Black-Cherry-Macarons-Bakers-Royale-720x720.jpg");
+	background-image: url("https://images.unsplash.com/photo-1455560460927-c48345dd421d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0px;
 }
 .display-3 {
 	color: #FFF0E6;
@@ -101,6 +106,7 @@ img {
 	margin: 10px;
 	height: 500px;
 }	
+
 .card-img-top{
 	width: 100%;
     height: 300px;
@@ -119,6 +125,9 @@ img {
 .card-title{
 	font-family: 'Cagliostro', sans-serif;
 	color: #FFF0E6;
+}
+.product-card {
+	margin-top: 20px;
 }
 .card-text{
 	font-family: 'Roboto', sans-serif;
@@ -139,4 +148,8 @@ td,
 }
 .login{
 	margin-bottom: 20px;
+}
+.aboutphoto{
+	margin-top: 50px;
+	width: 100%;
 }
